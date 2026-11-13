@@ -1,7 +1,7 @@
 
 # 📊 Customer Intelligence & Business Decision Support
 
-### Python Automation • CRM Customer Matching • Business Intelligence • Operational Efficiency
+### Python Automation • CRM Customer Identification • Business Intelligence • Operational Efficiency
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -34,7 +34,7 @@ Leadership needed to understand:
 - Which customer records could be identified efficiently.
 - Where manual research produced meaningful results.
 - How employee time could be allocated more effectively.
-- Which portions of the matching process offered opportunities for automation.
+- Which portions of the customer identification process offered opportunities for automation.
 - How customer identification could support business decisions, sales outreach, and revenue opportunities.
 
 **The objective was to improve customer identification while reducing unnecessary research and creating capacity for higher-value analytical work.**
@@ -47,19 +47,19 @@ Leadership needed to understand:
 |---|---:|
 | Distributor workbooks consolidated | **17** |
 | Customer records analyzed | **877** |
-| Successfully matched records | **648** |
-| Overall matching success rate | **73.9%** |
-| Quick matches | **302 (34.4%)** |
-| Manual matches | **346 (39.5%)** |
+| Successfully identified customer records | **648** |
+| Overall customer identification rate | **73.9%** |
+| Quick customer identifications | **302 (34.4%)** |
+| Research-assisted customer identifications | **346 (39.5%)** |
 | Records from five largest distributors | **82.1%** |
 
 ### 🚀 Customer Identification Improvement
 
 # Approximately 60% → 80–90%
 
-Improved customer identification through Python-assisted matching, data standardization, and manual research.
+Improved customer identification through Python-assisted fuzzy matching, data standardization, and manual research.
 
-This broader operational improvement is separate from the 73.9% matching rate observed in the June 2026 analysis sample.
+This broader operational improvement is separate from the 73.9% customer identification rate observed in the June 2026 analysis sample.
 
 **Business significance:** More distributor customers could be associated with existing CRM accounts, improving visibility into customer purchasing activity.
 
@@ -71,14 +71,14 @@ This broader operational improvement is separate from the 73.9% matching rate ob
 
 Developed a Python workflow using Pandas and Jupyter Notebook to:
 
-- Consolidate customer-matching results from distributor workbooks.
+- Consolidate customer identification results from distributor workbooks.
 - Clean and standardize customer information.
 - Organize completed customer identification outcomes.
-- Group records by matching-confidence scores.
-- Calculate matching performance across distributors and worksheet types.
+- Group records by identification-confidence scores.
+- Calculate customer identification performance across distributors and worksheet types.
 - Prepare structured datasets for further analysis.
 
-This reduced repetitive data preparation and made historical matching results easier to analyze.
+This reduced repetitive data preparation and made historical customer identification results easier to analyze.
 
 ### 2. Microsoft Excel — Operational Analysis
 
@@ -86,8 +86,8 @@ Used advanced Excel, PivotTables, and Power Pivot to evaluate:
 
 - Customer identification outcomes.
 - Distributor record volumes.
-- Matching-confidence score ranges.
-- Quick-match versus manual-match performance.
+- Identification-confidence score ranges.
+- Quick-identification versus manual-research performance.
 - Differences across worksheet categories.
 - Cumulative workload coverage.
 
@@ -111,23 +111,23 @@ These measures helped quantify the relationship between research workload and su
 Developed reporting views covering:
 
 - Executive performance KPIs.
-- Distributor matching performance.
+- Distributor customer identification performance.
 - Worksheet-level analysis.
 - Confidence-score performance.
 - Cumulative workload coverage.
 - Research-efficiency tradeoffs.
 
-The dashboard translated historical matching results into information leadership could use to evaluate operational decisions.
+The dashboard translated historical customer identification results into information leadership could use to evaluate operational decisions.
 
 ---
 
 ## 🎯 Customer Identification & Research Efficiency
 
-One of the project's most important findings was that different matching-confidence ranges required different levels of employee research.
+One of the project's most important findings was that different identification-confidence ranges required different levels of employee research.
 
-### Cumulative Matching Performance
+### Cumulative Customer Identification Performance
 
-| Confidence Scores | Workload Coverage | Successful Matches | Match Rate |
+| Confidence Scores | Workload Coverage | Successful Identifications | Identification Rate |
 |---|---:|---:|---:|
 | **50–80** | 38.1% | 309 | **92.5%** |
 | **40–80** | 53.6% | 398 | **84.7%** |
@@ -137,9 +137,9 @@ One of the project's most important findings was that different matching-confide
 
 ### Key Finding
 
-**38.1% of the analyzed workload produced 309 successful matches at a 92.5% matching rate.**
+**38.1% of the analyzed workload produced 309 successful customer identifications at a 92.5% identification rate.**
 
-Expanding coverage through the 40–80 confidence-score range increased successful matches to 398 while maintaining an 84.7% matching rate.
+Expanding coverage through the 40–80 confidence-score range increased successful customer identifications to 398 while maintaining an 84.7% identification rate.
 
 This demonstrated how historical results could inform decisions about the relationship between:
 
@@ -159,13 +159,13 @@ This finding helped explain where incoming workload was concentrated and support
 
 ### Worksheet Performance
 
-| Worksheet Category | Records | Matching Success Rate |
+| Worksheet Category | Records | Customer Identification Rate |
 |---|---:|---:|
 | Default D365 | 427 | 69.8% |
 | Historic | 180 | 76.1% |
 | In D365 | 270 | **78.9%** |
 
-Worksheet categories also showed differences in quick-match and manual-research requirements.
+Worksheet categories also showed differences in quick-identification and manual-research requirements.
 
 Combining distributor information, worksheet categories, confidence scores, and historical outcomes created a more complete understanding of the customer identification process.
 
@@ -258,9 +258,9 @@ The analysis helped address several leadership questions:
 
 | Business Question | Analytical Contribution |
 |---|---|
-| Where can customer records be processed efficiently? | Confidence-score and quick-match analysis |
-| Where does manual research add value? | Manual-match performance by score range |
-| How much additional coverage is gained through deeper research? | Cumulative workload and matching analysis |
+| Where can customer records be processed efficiently? | Confidence-score and quick-identification analysis |
+| Where does manual research add value? | Research-assisted identification performance by score range |
+| How much additional coverage is gained through deeper research? | Cumulative workload and identification analysis |
 | Where is incoming workload concentrated? | Distributor record-volume analysis |
 | How do different record categories behave? | Worksheet performance analysis |
 | Where might automation reduce manual intervention? | Historical outcome and confidence-score analysis |
@@ -300,9 +300,9 @@ Any illustrative datasets used for demonstrations should be identified as synthe
 
 ## ✅ Project Outcome
 
-This project transformed historical distributor customer-matching results into a structured business intelligence framework using **Python, Pandas, Excel, Power Pivot, DAX, and Power BI**.
+This project transformed historical distributor customer identification results into a structured business intelligence framework using **Python, Pandas, Excel, Power Pivot, DAX, and Power BI**.
 
-The analysis identified where matching performance was strongest, where manual research contributed substantial value, and how different workload segments could inform operational planning.
+The analysis identified where customer identification performance was strongest, where manual research contributed substantial value, and how different workload segments could inform operational planning.
 
 More importantly, it demonstrated how better customer identification supports a larger business objective:
 
@@ -312,4 +312,4 @@ The project connected technical analytics to operational efficiency, customer in
 
 ---
 
-*Analysis based on June 2026 customer-matching results. Commercial revenue benefits are potential downstream opportunities rather than directly measured outcomes.*
+*Analysis based on June 2026 customer identification results. Commercial revenue benefits are potential downstream opportunities rather than directly measured outcomes.*
