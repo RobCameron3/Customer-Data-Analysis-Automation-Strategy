@@ -489,7 +489,7 @@
       rx="15" class="panel"/>
 
 <text x="47" y="919" class="heading" font-size="22">
-  OPERATIONAL IMPACT — TIME, CAPACITY &amp; COST
+  OPERATIONAL EFFICIENCY &amp; RESOURCE OPTIMIZATION
 </text>
 
 <!-- REVERSE CLOCK -->
@@ -561,7 +561,7 @@
 </text>
 
 <text x="357" y="1003" class="muted" font-size="15">
-  Reduced repetitive customer research
+  Streamlined customer identification research
 </text>
 
 <text x="357" y="1029" class="muted" font-size="15">
@@ -569,17 +569,17 @@
 </text>
 
 <text x="357" y="1055" class="muted" font-size="15">
-  Improved capacity for reporting and analysis
+  Expanded capacity for reporting and analysis
 </text>
 
-<!-- ANNUALIZED LABOR COST PANEL -->
+<!-- ANNUAL LABOR RESOURCE VALUE PANEL -->
 <rect x="770" y="938" width="575" height="150"
       rx="13" fill="#092e2c"
       stroke="#48e1a2" stroke-width="2"/>
 
 <text x="793" y="963" fill="#b7f5d7"
       font-size="18" font-weight="bold">
-  ANNUALIZED LABOR COST EQUIVALENT
+  ANNUAL LABOR RESOURCE VALUE
 </text>
 
 <!-- MONEY STAIRCASE -->
@@ -739,13 +739,13 @@
   </text>
 </g>
 
-<text x="793" y="1066" fill="#c1e9d7" font-size="14">
-  Equivalent to two $57,000 annual base salaries
+<text x="793" y="1066" fill="#c1e9d7" font-size="12">
+  Illustrative annual salary value of employee resources
 </text>
 
 <!-- FOOTNOTE -->
 <text x="28" y="1130" fill="#91b1c8" font-size="12">
-  Customer identification improved from approximately 60% to 80–90% (up to 50% relative improvement). Revenue opportunities are potential, not verified sales. $114,000 is an illustrative salary equivalent, not verified net savings.
+  Customer identification improved from approximately 60% to 80–90% (up to 50% relative improvement). Revenue opportunities are potential, not verified sales. $114,000 is an illustrative salary-based resource comparison, not verified savings.
 </text>
 
 </svg>
