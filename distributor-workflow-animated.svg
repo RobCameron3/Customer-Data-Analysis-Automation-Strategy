@@ -1,0 +1,736 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400" height="900"
+     viewBox="0 0 1400 900"
+     role="img"
+     aria-label="Animated CRM customer identification, business intelligence, and operational impact dashboard">
+
+<title>Customer Data Intelligence and Business Impact</title>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#071422"/>
+    <stop offset="1" stop-color="#102c44"/>
+  </linearGradient>
+
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#183451"/>
+    <stop offset="1" stop-color="#0b2034"/>
+  </linearGradient>
+
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2675ef"/>
+    <stop offset="1" stop-color="#56d5ff"/>
+  </linearGradient>
+
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#17bf88"/>
+    <stop offset="1" stop-color="#81f8be"/>
+  </linearGradient>
+
+  <clipPath id="moneyClip">
+    <rect x="1150" y="685" width="158" height="59" rx="6"/>
+  </clipPath>
+
+  <style>
+    text {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title {
+      fill: #f5f9ff;
+      font-weight: 700;
+    }
+
+    .muted {
+      fill: #adc6dc;
+    }
+
+    .panel {
+      fill: url(#card);
+      stroke: #4c7395;
+      stroke-width: 1.5;
+    }
+
+    .number {
+      fill: #ffffff;
+      font-size: 37px;
+      font-weight: 800;
+    }
+
+    .gridline {
+      stroke: #385673;
+      stroke-width: 1;
+    }
+
+    .grow {
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: grow 12s ease-in-out infinite;
+    }
+
+    @keyframes grow {
+      0%, 6% {
+        transform: scaleY(.02);
+      }
+
+      35%, 94% {
+        transform: scaleY(1);
+      }
+
+      100% {
+        transform: scaleY(.02);
+      }
+    }
+  </style>
+
+  <g id="bill">
+    <rect width="48" height="24" rx="4"
+          fill="#38b978"
+          stroke="#a6ffd0"
+          stroke-width="1.5"/>
+
+    <rect x="5" y="4" width="38" height="16"
+          rx="2"
+          fill="none"
+          stroke="#baffd9"/>
+
+    <circle cx="24" cy="12" r="8" fill="#14633e"/>
+
+    <text x="24" y="17"
+          font-size="14"
+          text-anchor="middle"
+          fill="#d5ffe5"
+          font-weight="bold">$</text>
+  </g>
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect width="1400" height="900" rx="22" fill="url(#bg)"/>
+
+<g stroke="#285071" opacity=".13">
+  <path d="M0 100H1400 M0 200H1400 M0 300H1400 M0 400H1400 M0 500H1400 M0 600H1400 M0 700H1400 M0 800H1400"/>
+
+  <path d="M100 0V900 M200 0V900 M300 0V900 M400 0V900 M500 0V900 M600 0V900 M700 0V900 M800 0V900 M900 0V900 M1000 0V900 M1100 0V900 M1200 0V900 M1300 0V900"/>
+</g>
+
+<!-- HEADER -->
+
+<g transform="translate(32 30)">
+  <ellipse cx="23" cy="12" rx="22" ry="9" fill="#4ac4ff"/>
+
+  <path d="M1 12V41Q23 56 45 41V12"
+        fill="#268fd5"
+        stroke="#66d8ff"
+        stroke-width="2"/>
+
+  <path d="M1 26Q23 42 45 26 M1 38Q23 54 45 38"
+        fill="none"
+        stroke="#08314e"
+        stroke-width="3"/>
+</g>
+
+<text x="95" y="62"
+      class="title"
+      font-size="34">
+  CUSTOMER DATA INTELLIGENCE &amp; BUSINESS IMPACT
+</text>
+
+<text x="95" y="90"
+      fill="#9bd4ed"
+      font-size="17">
+  Distributor-to-CRM Reconciliation  •  Python Automation  •  Excel Analytics  •  Power BI  •  Operational Efficiency
+</text>
+
+<!-- KPI CARDS -->
+
+<g>
+  <rect x="25" y="116" width="210" height="113" rx="13" class="panel"/>
+  <rect x="249" y="116" width="210" height="113" rx="13" class="panel"/>
+  <rect x="473" y="116" width="210" height="113" rx="13" class="panel"/>
+  <rect x="697" y="116" width="210" height="113" rx="13" class="panel"/>
+  <rect x="921" y="116" width="210" height="113" rx="13" class="panel"/>
+  <rect x="1145" y="116" width="230" height="113" rx="13" class="panel"/>
+</g>
+
+<g class="number">
+  <text x="44" y="161">17</text>
+  <text x="268" y="161">877</text>
+  <text x="492" y="161">648</text>
+  <text x="716" y="161">73.9%</text>
+  <text x="940" y="161">302</text>
+  <text x="1164" y="161">346</text>
+</g>
+
+<g font-size="15" fill="#e8f4ff">
+  <text x="44" y="190">Distributor</text>
+  <text x="44" y="209">workbooks combined</text>
+
+  <text x="268" y="190">Customer records</text>
+  <text x="268" y="209">in analysis sample</text>
+
+  <text x="492" y="190">Customer records</text>
+  <text x="492" y="209">successfully matched</text>
+
+  <text x="716" y="190">Customer matching</text>
+  <text x="716" y="209">success rate</text>
+
+  <text x="940" y="190">Quick matches</text>
+  <text x="940" y="209">34.4% of records</text>
+
+  <text x="1164" y="190">Manual matches</text>
+  <text x="1164" y="209">39.5% of records</text>
+</g>
+
+<!-- CRM CUSTOMER IDENTIFICATION -->
+
+<rect x="25" y="247"
+      width="660" height="306"
+      rx="15"
+      class="panel"/>
+
+<text x="45" y="280"
+      class="title"
+      font-size="19">
+  IMPROVING CRM CUSTOMER IDENTIFICATION
+</text>
+
+<text x="45" y="303"
+      class="muted"
+      font-size="13">
+  Analyzing confidence scores to reduce manual research
+</text>
+
+<g class="gridline">
+  <path d="M104 342H645 M104 380H645 M104 418H645 M104 456H645 M104 494H645"/>
+</g>
+
+<g fill="#a9c3da" font-size="13">
+  <text x="52" y="346">100%</text>
+  <text x="59" y="384">80%</text>
+  <text x="59" y="422">60%</text>
+  <text x="59" y="460">40%</text>
+  <text x="59" y="498">20%</text>
+</g>
+
+<!-- ANIMATED WORKLOAD BARS -->
+
+<rect x="170" y="421.6"
+      width="125" height="72.4"
+      rx="5"
+      fill="url(#blue)"
+      class="grow"/>
+
+<rect x="418" y="392.2"
+      width="125" height="101.8"
+      rx="5"
+      fill="url(#blue)"
+      class="grow"/>
+
+<g fill="#ffffff"
+   font-size="18"
+   font-weight="bold"
+   text-anchor="middle">
+
+  <text x="232" y="461">38.1%</text>
+  <text x="480" y="444">53.6%</text>
+</g>
+
+<!-- MATCHING SUCCESS-RATE LINE -->
+
+<path d="M232 356L480 371"
+      stroke="#65efb0"
+      stroke-width="5"
+      stroke-linecap="round"
+      fill="none"
+      stroke-dasharray="300"
+      stroke-dashoffset="300">
+
+  <animate attributeName="stroke-dashoffset"
+           values="300;0;0"
+           keyTimes="0;.35;1"
+           dur="12s"
+           repeatCount="indefinite"/>
+</path>
+
+<circle cx="232" cy="356" r="8" fill="#76f7b9"/>
+<circle cx="480" cy="371" r="8" fill="#76f7b9"/>
+
+<g fill="#79f5b6"
+   font-size="20"
+   font-weight="bold"
+   text-anchor="middle">
+
+  <text x="232" y="341">92.5%</text>
+  <text x="480" y="356">84.7%</text>
+</g>
+
+<g fill="#ffffff"
+   font-size="16"
+   text-anchor="middle">
+
+  <text x="232" y="519">50–80 Score</text>
+  <text x="480" y="519">40–80 Score</text>
+</g>
+
+<text x="45" y="543"
+      fill="#a6e9d1"
+      font-size="13">
+  Blue = share of records  •  Green = successful identification rate
+</text>
+
+<!-- DISTRIBUTOR CUSTOMER DATA -->
+
+<rect x="701" y="247"
+      width="331" height="306"
+      rx="15"
+      class="panel"/>
+
+<text x="719" y="279"
+      class="title"
+      font-size="19">
+  DISTRIBUTOR CUSTOMER DATA
+</text>
+
+<text x="719" y="302"
+      class="muted"
+      font-size="12">
+  Top 5 sources: 82.1% of incoming records
+</text>
+
+<!-- ANIMATED DISTRIBUTOR DONUT -->
+
+<circle cx="866" cy="420"
+        r="91"
+        fill="none"
+        stroke="#8199b1"
+        stroke-width="32"/>
+
+<circle cx="866" cy="420"
+        r="91"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="32"
+        transform="rotate(-90 866 420)"
+        stroke-dasharray="0 572">
+
+  <animate attributeName="stroke-dasharray"
+           values="0 572;470 572;470 572"
+           keyTimes="0;.35;1"
+           dur="12s"
+           repeatCount="indefinite"/>
+</circle>
+
+<text x="866" y="418"
+      text-anchor="middle"
+      class="title"
+      font-size="33">
+  82.1%
+</text>
+
+<text x="866" y="441"
+      text-anchor="middle"
+      fill="#bed8ec"
+      font-size="14">
+  Top 5 distributors
+</text>
+
+<text x="866" y="534"
+      text-anchor="middle"
+      fill="#c5d9e9"
+      font-size="14">
+  17.9% from remaining distributors
+</text>
+
+<!-- ANALYTICS WORKFLOW -->
+
+<rect x="1048" y="247"
+      width="327" height="306"
+      rx="15"
+      class="panel"/>
+
+<text x="1067" y="279"
+      class="title"
+      font-size="19">
+  FROM DATA TO DECISIONS
+</text>
+
+<text x="1068" y="302"
+      class="muted"
+      font-size="12">
+  Automation, analysis and reporting
+</text>
+
+<rect x="1067" y="317"
+      width="289" height="61"
+      rx="9"
+      fill="#10273d"
+      stroke="#5a87a7"/>
+
+<rect x="1067" y="407"
+      width="289" height="61"
+      rx="9"
+      fill="#10273d"
+      stroke="#5a87a7"/>
+
+<rect x="1067" y="497"
+      width="289" height="43"
+      rx="9"
+      fill="#10273d"
+      stroke="#5a87a7"/>
+
+<g font-size="27">
+  <text x="1080" y="355">🐍</text>
+  <text x="1080" y="446">📊</text>
+  <text x="1080" y="527">📈</text>
+</g>
+
+<g fill="#ffffff"
+   font-size="17"
+   font-weight="bold">
+
+  <text x="1124" y="341">Python / Pandas</text>
+  <text x="1124" y="431">Excel / Power Pivot</text>
+  <text x="1124" y="525">Power BI Reporting</text>
+</g>
+
+<g class="muted" font-size="12">
+  <text x="1124" y="361">Automate cleaning and fuzzy matching</text>
+  <text x="1124" y="451">Evaluate scores and operational trends</text>
+</g>
+
+<path d="M1210 380V400 M1210 470V490"
+      stroke="#65cfff"
+      stroke-width="3"/>
+
+<path d="M1203 393L1210 400L1217 393 M1203 483L1210 490L1217 483"
+      fill="none"
+      stroke="#65cfff"
+      stroke-width="3"/>
+
+<!-- BUSINESS IMPACT -->
+
+<rect x="25" y="572"
+      width="1350" height="289"
+      rx="16"
+      class="panel"/>
+
+<text x="47" y="608"
+      class="title"
+      font-size="23">
+  BUSINESS VALUE: TIME, CAPACITY &amp; COST
+</text>
+
+<!-- REVERSE CLOCK -->
+
+<g transform="translate(122 708)">
+
+  <circle r="66"
+          fill="#092337"
+          stroke="#4bc9ee"
+          stroke-width="7"/>
+
+  <circle r="55"
+          fill="none"
+          stroke="#234a62"
+          stroke-width="1"/>
+
+  <g stroke="#e5f7ff" stroke-width="3">
+    <line y1="-53" y2="-43"/>
+    <line y1="53" y2="43"/>
+    <line x1="-53" x2="-43"/>
+    <line x1="53" x2="43"/>
+  </g>
+
+  <g fill="#e8f8ff"
+     font-size="12"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <text y="-32">12</text>
+    <text x="35" y="4">3</text>
+    <text y="42">6</text>
+    <text x="-35" y="4">9</text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0"
+                      to="-360"
+                      dur="18s"
+                      repeatCount="indefinite"/>
+
+    <line x1="0" y1="8"
+          x2="0" y2="-30"
+          stroke="#ffffff"
+          stroke-width="6"
+          stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0"
+                      to="-360"
+                      dur="3s"
+                      repeatCount="indefinite"/>
+
+    <line x1="0" y1="10"
+          x2="0" y2="-46"
+          stroke="#ffd96c"
+          stroke-width="4"
+          stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0"
+                      to="-360"
+                      dur="1.5s"
+                      repeatCount="indefinite"/>
+
+    <line x1="0" y1="12"
+          x2="0" y2="-50"
+          stroke="#6ff6ba"
+          stroke-width="2"/>
+  </g>
+
+  <circle r="6" fill="#ffffff"/>
+</g>
+
+<!-- REVERSE HOURGLASS -->
+
+<g transform="translate(280 706)">
+
+  <rect x="-32" y="-66"
+        width="64" height="8"
+        rx="4"
+        fill="#8edaf9"/>
+
+  <rect x="-32" y="58"
+        width="64" height="8"
+        rx="4"
+        fill="#8edaf9"/>
+
+  <path d="M-25 -57L25 -57L0 0L25 57L-25 57L0 0Z"
+        fill="#103951"
+        stroke="#78d9ff"
+        stroke-width="3"/>
+
+  <path d="M-18 44L18 44L0 8Z"
+        fill="#e5b84e">
+
+    <animate attributeName="opacity"
+             values="1;.1;1"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M-18 -44L18 -44L0 -8Z"
+        fill="#e5b84e">
+
+    <animate attributeName="opacity"
+             values=".1;1;.1"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="0" cy="0" r="3" fill="#ffe17d">
+    <animate attributeName="cy"
+             values="40;-40;40"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="0" y="91"
+        text-anchor="middle"
+        fill="#9ed8f3"
+        font-size="13">
+    Time reclaimed
+  </text>
+</g>
+
+<!-- OPERATIONAL IMPACT -->
+
+<text x="365" y="675"
+      fill="#79f3b7"
+      font-size="21"
+      font-weight="bold">
+  MORE TIME FOR HIGHER-VALUE WORK
+</text>
+
+<text x="365" y="705"
+      class="muted"
+      font-size="16">
+  Streamlined repetitive customer research
+</text>
+
+<text x="365" y="733"
+      class="muted"
+      font-size="16">
+  Cleared historical customer-data backlogs
+</text>
+
+<text x="365" y="761"
+      class="muted"
+      font-size="16">
+  Supported smarter resource allocation
+</text>
+
+<!-- FINANCIAL IMPACT -->
+
+<rect x="770" y="629"
+      width="575" height="202"
+      rx="14"
+      fill="#092e2c"
+      stroke="#48e1a2"
+      stroke-width="2"/>
+
+<text x="793" y="661"
+      fill="#b7f5d7"
+      font-size="20"
+      font-weight="bold">
+  ANNUALIZED LABOR COST EQUIVALENT
+</text>
+
+<!-- ANIMATED FINANCIAL COUNTER -->
+
+<g fill="#bdf9a2"
+   font-size="60"
+   font-weight="bold">
+
+  <text x="793" y="737">$0
+    <animate attributeName="opacity"
+             values="1;1;0;0"
+             keyTimes="0;.049;.05;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$15,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.049;.05;.099;.1;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$30,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.099;.1;.149;.15;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$45,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.149;.15;.199;.2;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$60,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.199;.2;.249;.25;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$75,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.249;.25;.299;.3;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$90,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.299;.3;.339;.34;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$105,000
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;.339;.34;.374;.375;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="793" y="737" opacity="0">$114,000
+    <animate attributeName="opacity"
+             values="0;0;1;1"
+             keyTimes="0;.374;.375;1"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+</g>
+
+<!-- FINANCIAL PROGRESS BAR -->
+
+<rect x="793" y="756"
+      width="520" height="11"
+      rx="5"
+      fill="#234b44"/>
+
+<rect x="793" y="756"
+      width="0" height="11"
+      rx="5"
+      fill="url(#green)">
+
+  <animate attributeName="width"
+           values="0;520;520"
+           keyTimes="0;.375;1"
+           dur="8s"
+           repeatCount="indefinite"/>
+</rect>
+
+<text x="793" y="797"
+      fill="#c1e9d7"
+      font-size="15">
+  Equivalent to two $57,000 annual base salaries
+</text>
+
+<!-- FLYING DOLLAR BILLS -->
+
+<g clip-path="url(#moneyClip)">
+
+  <use href="#bill" opacity=".9">
+    <animateMotion dur="6s"
+                   repeatCount="indefinite"
+                   path="M1115 700 C1160 685 1230 700 1300 720"/>
+  </use>
+
+  <use href="#bill" opacity=".8">
+    <animateMotion dur="6s"
+                   begin="-2s"
+                   repeatCount="indefinite"
+                   path="M1115 730 C1170 710 1240 710 1300 730"/>
+  </use>
+
+  <use href="#bill" opacity=".7">
+    <animateMotion dur="6s"
+                   begin="-4s"
+                   repeatCount="indefinite"
+                   path="M1115 745 C1180 720 1240 720 1300 700"/>
+  </use>
+</g>
+
+<!-- FOOTNOTE -->
+
+<text x="32" y="885"
+      fill="#8eaec6"
+      font-size="12">
+  Analysis sample: 877 customer records. $114,000 represents annualized base-salary cost equivalent, not independently verified net savings attributable to automation.
+</text>
+
+</svg>
