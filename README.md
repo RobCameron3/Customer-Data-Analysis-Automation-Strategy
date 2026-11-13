@@ -1,166 +1,301 @@
 
 # 📊 Customer Intelligence & Business Decision Support
 
-**Python · Pandas · Jupyter · Excel · Power Pivot · DAX · Power BI · Dynamics 365 CRM**
+**Python · Pandas · Jupyter Notebook · Excel · Power Pivot · DAX · Power BI · Dynamics 365 CRM**
 
-Turning distributor purchasing records into actionable customer intelligence—and using historical outcomes to help leadership decide where research time delivers the most value.
+Transforming distributor purchasing records into actionable customer intelligence through Python automation, CRM reconciliation, historical performance analysis, and business intelligence reporting.
 
-![Animated Customer Intelligence Dashboard](customer-intelligence-animated-v2.svg)
+![Animated Customer Intelligence & Business Impact Dashboard](distributor-workflow-animated.svg)
+
+---
 
 ## 🎯 The Business Problem
 
-Distributor customer records had to be reconciled against existing CRM accounts. New files arrived regularly while older unresolved records created a backlog.
+Distributor customer records needed to be reconciled with existing CRM accounts to identify purchasing activity and maintain accurate customer information.
+
+New distributor files arrived regularly while older unresolved records created a historical backlog.
 
 Leadership needed to understand:
 
 - Which customer records could be identified efficiently.
-- Where additional manual investigation produced meaningful results.
-- How to allocate employee capacity across recurring workloads.
-- How improved customer identification could support Sales, Marketing, and business decisions.
+- Where manual research produced meaningful results.
+- How employee time could be allocated more effectively.
+- Which portions of the matching process offered opportunities for automation.
+- How customer identification could support business decisions, sales outreach, and revenue opportunities.
 
-The larger objective was to transform incomplete distributor purchasing data into **reliable, actionable customer intelligence**.
-
-## 📈 Results at a Glance
-
-| June 2026 Analysis | Result |
-|---|---:|
-| Distributor workbooks consolidated | **17** |
-| Customer records reviewed in sample | **877** |
-| Successfully identified in CRM | **648 (73.9%)** |
-| Quick matches | **302 (34.4%)** |
-| Manual matches | **346 (39.5%)** |
-| Records originating from five largest distributors | **82.1%** |
-
-### Customer Identification Improvement
-
-**Approximately 60% → 80–90%**
-
-The broader customer identification process improved substantially through automated matching, data standardization, and manual research.
-
-This operational improvement is separate from the 73.9% success rate observed in the June analysis sample.
-
-## 🔍 Turning Customer Data Into Business Decisions
-
-Rather than treating every distributor customer record equally, I analyzed historical outcomes to understand the relationship between:
-
-- Customer identification confidence scores.
-- Incoming record volume.
-- Distributor and worksheet characteristics.
-- Successful automated and manual identification.
-- Research effort and operational efficiency.
-
-### Customer Identification by Confidence Score
-
-| Score Range | Share of Records | Customers Identified | Identification Rate |
-|---|---:|---:|---:|
-| 50–80 | **38.1%** | **309** | **92.5%** |
-| 40–80 | **53.6%** | **398** | **84.7%** |
-| 30–80 | **83.4%** | **555** | **75.9%** |
-
-### What the Analysis Revealed
-
-Higher-confidence customer records generally required less investigation while producing stronger identification rates.
-
-Expanding into lower-confidence ranges increased the number of customers that could potentially be identified but also increased the need for manual research.
-
-**Business decision supported:** Evaluate the tradeoff between customer identification coverage, research effort, and operational capacity rather than applying the same workflow to every record.
-
-## 🛠️ Technical Workflow
-
-### 1. Python & Pandas — Data Preparation and Automation
-
-- Consolidated results across distributor workbooks.
-- Standardized customer information.
-- Supported fuzzy matching against CRM records.
-- Classified customer identification outcomes.
-- Reduced repetitive data preparation and research.
-
-### 2. Excel — Historical Performance Analysis
-
-- Evaluated identification results by score range.
-- Compared distributor and worksheet performance.
-- Investigated successful and unresolved customer records.
-- Identified opportunities to improve research efficiency.
-
-### 3. Power Pivot & DAX — Business Metrics
-
-Developed calculations for:
-
-- Quick-match and manual-match results.
-- Identification success rates.
-- Cumulative customer record coverage.
-- Workload distribution.
-- Performance across confidence-score ranges.
-
-### 4. Power BI — Business Intelligence Reporting
-
-Translated the analysis into visual reporting to communicate:
-
-- Customer identification performance.
-- Distributor record concentration.
-- Workload and success-rate tradeoffs.
-- Opportunities to improve operational decisions.
-
-## 💼 From Customer Identification to Revenue Opportunities
-
-Improving customer identification creates value beyond data processing.
-
-**Distributor Purchasing Data**
-↓
-**Customer Identification — Approximately 60% to 80–90%**
-↓
-**More Customers Linked to Dynamics 365 CRM**
-↓
-**Greater Visibility Into Customer Purchasing Activity**
-↓
-**More Actionable Sales & Marketing Outreach**
-↓
-**Potential Repeat Purchases, Retention & Revenue Growth**
-
-### Why This Matters
-
-**Sales:** More identifiable customers create opportunities for account follow-ups and repeat purchases.
-
-**Marketing:** Improved customer records can support more targeted outreach and campaigns.
-
-**Management:** Better customer and distributor information supports operational planning and resource allocation.
-
-**Business Intelligence:** More complete CRM data improves reporting and understanding of purchasing activity.
-
-**ROI:** The project combined operational efficiency improvements with opportunities for additional commercial value.
-
-*Additional sales revenue was not directly measured or attributed to this project.*
-
-## ⏱️ Operational Efficiency & Financial Impact
-
-Automation reduced repetitive customer research, supported backlog reduction, and increased the capacity to process recurring distributor records.
-
-### Annualized Labor Cost Context
-
-**$114,000 — Equivalent to Two $57,000 Annual Base Salaries**
-
-This illustrates the annualized salary cost associated with two roles involved in the workflow.
-
-It is not presented as independently verified net savings directly attributable to the automation.
-
-The broader operational value includes:
-
-- Reduced repetitive research.
-- Improved customer identification capacity.
-- More efficient use of employee time.
-- Better visibility into recurring workloads.
-- Greater capacity for analysis and reporting.
-
-## 📂 Project Materials & Confidentiality
-
-This repository demonstrates the analytical methodology, reporting approach, and business outcomes.
-
-Real customer records, proprietary distributor data, and confidential company information are not publicly shared.
-
-Any synthetic or illustrative data used in demonstrations should be clearly identified.
+**The objective was to improve customer identification while reducing unnecessary research and creating capacity for higher-value analytical work.**
 
 ---
 
-**Project Focus:** Business Intelligence · Customer Analytics · CRM Data Reconciliation · Python Automation · Operational Decision Support
+## 📈 Project Results at a Glance
 
-*Historical findings reflect the analyzed records and do not guarantee future identification performance.*
+| Performance Metric | Result |
+|---|---:|
+| Distributor workbooks consolidated | **17** |
+| Customer records analyzed | **877** |
+| Successfully matched records | **648** |
+| Overall matching success rate | **73.9%** |
+| Quick matches | **302 (34.4%)** |
+| Manual matches | **346 (39.5%)** |
+| Records from five largest distributors | **82.1%** |
+
+### 🚀 Customer Identification Improvement
+
+# Approximately 60% → 80–90%
+
+Improved customer identification through Python-assisted matching, data standardization, and manual research.
+
+This broader operational improvement is separate from the 73.9% matching rate observed in the June 2026 analysis sample.
+
+**Business significance:** More distributor customers could be associated with existing CRM accounts, improving visibility into customer purchasing activity.
+
+---
+
+## 🐍 Technical Development & Analytical Workflow
+
+### 1. Python & Pandas — Data Processing
+
+Developed a Python workflow using Pandas and Jupyter Notebook to:
+
+- Consolidate customer-matching results from distributor workbooks.
+- Clean and standardize customer information.
+- Organize completed customer identification outcomes.
+- Group records by matching-confidence scores.
+- Calculate matching performance across distributors and worksheet types.
+- Prepare structured datasets for further analysis.
+
+This reduced repetitive data preparation and made historical matching results easier to analyze.
+
+### 2. Microsoft Excel — Operational Analysis
+
+Used advanced Excel, PivotTables, and Power Pivot to evaluate:
+
+- Customer identification outcomes.
+- Distributor record volumes.
+- Matching-confidence score ranges.
+- Quick-match versus manual-match performance.
+- Differences across worksheet categories.
+- Cumulative workload coverage.
+
+### 3. DAX — Performance Measurement
+
+Created measures to calculate:
+
+- Quick Match %
+- Manual Match %
+- Total Match %
+- Create New %
+- Not Mapped %
+- Cumulative Records Processed
+- Cumulative Successful Matches
+- Cumulative Matching Success Rate
+
+These measures helped quantify the relationship between research workload and successful customer identification.
+
+### 4. Power BI — Business Intelligence Reporting
+
+Developed reporting views covering:
+
+- Executive performance KPIs.
+- Distributor matching performance.
+- Worksheet-level analysis.
+- Confidence-score performance.
+- Cumulative workload coverage.
+- Research-efficiency tradeoffs.
+
+The dashboard translated historical matching results into information leadership could use to evaluate operational decisions.
+
+---
+
+## 🎯 Customer Identification & Research Efficiency
+
+One of the project's most important findings was that different matching-confidence ranges required different levels of employee research.
+
+### Cumulative Matching Performance
+
+| Confidence Scores | Workload Coverage | Successful Matches | Match Rate |
+|---|---:|---:|---:|
+| **50–80** | 38.1% | 309 | **92.5%** |
+| **40–80** | 53.6% | 398 | **84.7%** |
+| **30–80** | 83.4% | 555 | **75.9%** |
+| **20–80** | 98.4% | 638 | **73.9%** |
+| **0–80** | 100.0% | 648 | **73.9%** |
+
+### Key Finding
+
+**38.1% of the analyzed workload produced 309 successful matches at a 92.5% matching rate.**
+
+Expanding coverage through the 40–80 confidence-score range increased successful matches to 398 while maintaining an 84.7% matching rate.
+
+This demonstrated how historical results could inform decisions about the relationship between:
+
+**Customer Identification + Research Effort + Employee Capacity**
+
+Lower-confidence records were not necessarily unproductive. However, they generally required more manual investigation.
+
+The analysis helped distinguish records suitable for quicker processing from those requiring deeper research.
+
+---
+
+## 📦 Distributor & Worksheet Intelligence
+
+The five highest-volume distributors accounted for **720 of 877 analyzed records (82.1%)**.
+
+This finding helped explain where incoming workload was concentrated and supported capacity planning across distributor sources.
+
+### Worksheet Performance
+
+| Worksheet Category | Records | Matching Success Rate |
+|---|---:|---:|
+| Default D365 | 427 | 69.8% |
+| Historic | 180 | 76.1% |
+| In D365 | 270 | **78.9%** |
+
+Worksheet categories also showed differences in quick-match and manual-research requirements.
+
+Combining distributor information, worksheet categories, confidence scores, and historical outcomes created a more complete understanding of the customer identification process.
+
+---
+
+## 💼 From Customer Identification to Revenue Opportunities
+
+Customer identification is more than a data-cleaning exercise.
+
+Every successfully identified customer improves the organization's ability to understand purchasing activity and support downstream business functions.
+
+### The Business Value Chain
+
+**Incoming Distributor Purchasing Data**
+
+↓
+
+**Python Automation & Customer Identification**
+
+↓
+
+**More Customers Linked to Dynamics 365 CRM**
+
+↓
+
+**Improved Customer Purchasing Visibility**
+
+↓
+
+**More Actionable Sales & Marketing Outreach**
+
+↓
+
+**Potential Repeat Purchases, Customer Retention & Revenue Growth**
+
+### Business Intelligence Impact
+
+**Sales:** More identifiable customers create opportunities for targeted follow-ups and additional purchases.
+
+**Marketing:** More complete customer information can support more relevant outreach campaigns.
+
+**Management:** Better customer visibility supports operational decisions, resource allocation, and reporting.
+
+**Finance & Reporting:** Cleaner customer records can improve the quality of customer activity analysis.
+
+**Operations:** Reduced repetitive research creates capacity for additional customer identification and data-quality work.
+
+### Return on Investment
+
+The project demonstrated two distinct sources of potential business value:
+
+**Operational ROI:** More efficient processing, reduced repetitive work, and improved employee capacity.
+
+**Commercial ROI:** Better customer identification creates opportunities for Sales and Marketing to reach previously unidentified customers.
+
+Additional revenue was not directly measured or attributed to this project.
+
+---
+
+## ⏱️ Operational Efficiency & Backlog Reduction
+
+The customer identification process involved recurring monthly distributor data and a historical backlog.
+
+Improving the efficiency of incoming record processing could help prevent additional backlog while creating capacity to investigate older customer records.
+
+### Operational Improvements
+
+- Reduced repetitive customer research.
+- Supported more efficient handling of incoming records.
+- Identified opportunities for future automation.
+- Improved visibility into research requirements.
+- Supported historical backlog reduction.
+- Created additional capacity for business intelligence and data-quality analysis.
+
+### Annualized Labor Cost Context
+
+# $114,000
+
+**Equivalent to two $57,000 annual base salaries.**
+
+This figure illustrates the annualized base-salary cost associated with two full-time roles. It is not a verified calculation of net savings attributable to the project.
+
+The broader value was improving how available employee time could be used while strengthening customer information for downstream business functions.
+
+---
+
+## 🧠 Business Decisions Supported
+
+The analysis helped address several leadership questions:
+
+| Business Question | Analytical Contribution |
+|---|---|
+| Where can customer records be processed efficiently? | Confidence-score and quick-match analysis |
+| Where does manual research add value? | Manual-match performance by score range |
+| How much additional coverage is gained through deeper research? | Cumulative workload and matching analysis |
+| Where is incoming workload concentrated? | Distributor record-volume analysis |
+| How do different record categories behave? | Worksheet performance analysis |
+| Where might automation reduce manual intervention? | Historical outcome and confidence-score analysis |
+| How can findings be communicated to leadership? | Power BI dashboards and executive KPIs |
+
+**The central achievement was converting historical operational data into measurable insights that could guide future workflow decisions.**
+
+---
+
+## 🛠️ Technologies & Skills
+
+| Technology | Application |
+|---|---|
+| Python | Data processing and automation |
+| Pandas | Data cleaning, consolidation, and aggregation |
+| Jupyter Notebook | Python development and analysis |
+| Microsoft Excel | Advanced analysis and reporting |
+| PivotTables | Performance segmentation |
+| Power Pivot | Analytical data modeling |
+| DAX | KPI and cumulative-performance measures |
+| Power BI | Interactive dashboards and decision support |
+| Dynamics 365 CRM | Customer identification and reconciliation |
+
+**Additional Skills:** Customer Analytics · Entity Resolution · Data Quality · Business Intelligence · KPI Development · Process Improvement · Operational Analytics · Workflow Optimization · Data Visualization
+
+---
+
+## 🔒 Data Confidentiality
+
+This portfolio project presents analytical methods, aggregated performance results, and business insights without publishing proprietary customer-level information.
+
+Real distributor customer records, confidential CRM data, and internal company datasets are not included.
+
+Any illustrative datasets used for demonstrations should be identified as synthetic.
+
+---
+
+## ✅ Project Outcome
+
+This project transformed historical distributor customer-matching results into a structured business intelligence framework using **Python, Pandas, Excel, Power Pivot, DAX, and Power BI**.
+
+The analysis identified where matching performance was strongest, where manual research contributed substantial value, and how different workload segments could inform operational planning.
+
+More importantly, it demonstrated how better customer identification supports a larger business objective:
+
+**Efficient Customer Identification → Better CRM Data → Improved Business Decisions → More Sales Outreach Opportunities → Potential Revenue Growth**
+
+The project connected technical analytics to operational efficiency, customer intelligence, and downstream business value.
+
+---
+
+*Analysis based on June 2026 customer-matching results. Commercial revenue benefits are potential downstream opportunities rather than directly measured outcomes.*
