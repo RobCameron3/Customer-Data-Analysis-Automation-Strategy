@@ -15,7 +15,7 @@
 
 ### 💡 Project Overview
 
-Transforming distributor purchasing records into actionable customer intelligence through **Python automation, CRM reconciliation, historical performance analysis, and business intelligence reporting**—improving customer identification, streamlining operational workflows, supporting data-driven business decisions, and creating opportunities for more targeted sales outreach and revenue growth.
+Transforming distributor purchasing records into actionable customer intelligence through **Python automation, CRM reconciliation, historical performance analysis, and business intelligence reporting**, improving customer identification, streamlining operational workflows, supporting data-driven business decisions, and creating opportunities for more targeted sales outreach and revenue growth.
 
 ### 📊 Animated Business Intelligence Dashboard
 
