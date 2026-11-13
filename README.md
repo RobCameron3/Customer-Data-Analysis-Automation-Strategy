@@ -1,9 +1,23 @@
 
 # 📊 Customer Intelligence & Business Decision Support
 
-**Python · Pandas · Jupyter Notebook · Excel · Power Pivot · DAX · Power BI · Dynamics 365 CRM**
+### Python Automation • CRM Customer Matching • Business Intelligence • Operational Efficiency
 
-Transforming distributor purchasing records into actionable customer intelligence through Python automation, CRM reconciliation, historical performance analysis, and business intelligence reporting.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Advanced Excel](https://img.shields.io/badge/Advanced_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge)
+![Power Pivot](https://img.shields.io/badge/Power_Pivot-107C41?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
+![Dynamics 365 CRM](https://img.shields.io/badge/Dynamics_365_CRM-002050?style=for-the-badge&logo=dynamics365&logoColor=white)
+
+### 💡 Project Overview
+
+Transforming distributor purchasing records into actionable customer intelligence through **Python automation, CRM reconciliation, historical performance analysis, and business intelligence reporting**—improving customer identification, streamlining operational workflows, supporting data-driven business decisions, and creating opportunities for more targeted sales outreach and revenue growth.
+
+### 📊 Animated Business Intelligence Dashboard
 
 ![Animated Customer Intelligence & Business Impact Dashboard](distributor-workflow-animated.svg)
 
